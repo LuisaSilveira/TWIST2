@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula8</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js"></script>
+    <script>
+        alert("Bom dia !!!")
+    </script>
+</head>
+<body>
+    <div id = "conteudo">
+        <header id = "header"></header>
+        <nav id = "navigator"></nav>
+        <section id = "main"></section>
+        <footer id = "footer"></footer>
+    </div>
+    <script>
+        "use strict";
+        var var1 = 10;
+        console.log(var1);
+
+        var x = 'valor1'; 
+        let y = 'valor2';
+        var x = 'valor3'; 
+        //let y = 'valor4'; //apresenta o erro Identifier 'y' has already been declared
+        console.log(x,y)
+
+        let a = 1;
+        a=2;
+        const b=1;
+        //b=2; //apresenta o erro Assignment to constant variable.
+        console.log(x,y)
+
+        let c= a+b;//soma
+        let d= a-b;//subtração
+        let e= a*b; //multiplicação
+        let f= a/b; //divisão
+        let g=  a%b; //mod(resto)
+        a++;
+        c--;
+        console.log(a,b,c,d,e,f,g);
+
+        let frase, texto, conjunto;
+        frase = "Bom";
+        texto = "dia";
+        conjunto = frase + " "+texto + "!!!!";
+        console.log(conjunto);
+
+        let num1, num2, num3;
+        num1 = "4";
+        num2 = "4";
+        console.log(num1+num2);
+        num3 = "@nT3nA";//colocar nomes nas variáveis relacionado ao conteudo a ser manipulado
+        console.log(num3);
+        let t1,t2,t3;
+        t1='Um texto';
+        t2="texto2"
+        t3=`${t1} ${t2}!!!`; //fazer com o acento grave
+        console.log(t3);
+
+        let t4 = `cferjsaklsl
+                    hjhjhkjkjl
+                        kjkjkkjk`
+        console.log(t4);
+
+        let n1,n2;
+        n1=3;
+        n2=2;
+        console.log('O resultado da soma é: '+(n1+n2));
+        alert("O resultado da soma é: " +(n1+n2));
+        console.log(`O resultado da sub é ${n1-n2}`);
+        alert(`O resultado da sub é: ${n1+n2}`);
+    </script>
+</body>
+</html>
