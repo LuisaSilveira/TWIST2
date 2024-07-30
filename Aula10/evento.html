@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula10</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "scripts/func.js"></script>
+    <script>
+
+        //exemplo primeira forma
+        window.onload = function(){
+            let btn = document.querySelector("#btnExemplo1")
+            console.log(btn);
+            btn.onclick = function(){
+                alert("teste do botão 1");
+                mostrarDados();
+            }
+            console.log(btn);
+        }
+
+        //exemplo segunda forma
+        window.addEventListener("load", function(){
+            let btn = document.querySelector("#btnExemplo2");
+            console.log(btn);
+            btn.addEventListener("click",function(){
+                alert("Teste do botão 2");
+                let resp = calcTrapezio();
+                alert(resp);
+            })
+        });
+    
+    </script>
+</head>
+<body>
+    <div id = "container">
+        <header id = "header"></header>
+        <nav id = "navigator">
+            <a href = "index.html">Break</a> | 
+            <a href = "array.html">Array</a> | 
+            <a href = "func.html">Funções</a> |
+            <a href = "evento.html">Evento</a> |
+        </nav>
+        <section id = "main">
+            <br/><br/>
+            <label for = "txtNome">Nome: </label>
+            <input type = "text" name = "txtNome" id = "txtNome">
+            <br/><br/>
+            <label for = "txtCpf">CPF:</label>=
+            <input type = "text" name = "txtCpf" id = "txtCpf">
+            <br/><br/>
+
+            <fieldset>
+                <legend>Hobbies: </legend>
+                <input type = "checkbox" name = "hobbies" id = "livros" value = "livros">
+                <label for = "livros">Livros</label>
+                <input type = "checkbox" name = "hobbies" id = "series" value = "series">
+                <label for = "series">Series</label>
+                <input type = "checkbox" name = "hobbies" id = "filmes" value = "filmes">
+                <label for = "filmes">Filmes</label>
+            </fieldset>
+            <br/><br/>
+            <form action = "">
+                <button id = "btnExemplo1">Exemplo 1</button>
+                &nbsp;&nbsp;&nbsp;
+                <button id ="btnExemplo2">Exemplo 2</button>
+            </form>
+        </section>
+        <footer id = "footer"></footer>
+    </div>
+</body>
+</html>

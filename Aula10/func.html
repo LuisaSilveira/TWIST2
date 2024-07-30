@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula10</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "scripts/func.js"></script>
+</head>
+<body>
+    <div id = "container">
+        <header id = "header"></header>
+        <nav id = "navigator">
+            <a href = "index.html">Break</a> | 
+            <a href = "array.html">Array</a> | 
+            <a href = "func.html">Funções</a> |
+            <a href = "evento.html">Evento</a> |
+        </nav>
+        <section id = "main">
+            <form action = "">
+                <button id = "btnExemplo1">Exemplo 1</button>
+                <button id ="btnExemplo2">Exemplo 2</button>
+            </form>
+        </section>
+        <footer id = "foorter"></footer>
+        <div>
+            <script>
+                //chamada da primeira função
+                calcQuadrado();
+
+                //chamada da segunda função
+                calcRetangulo(2,3.7);
+
+                //chamada da terceira função 
+                let resp = calcTriangulo(2,4);
+                console.log(resp);
+
+                //chamada da quarta função
+                resp = calcTrapezio();
+                console.log(resp);
+
+            </script>
+        </div>
+    </div>
+</body>
+</html>
