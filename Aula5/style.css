@@ -1,0 +1,100 @@
+body{
+    background-color: blueviolet;
+}
+
+#conteudo{
+    background-color:lavender;
+}
+
+figure{
+    border:2px darkorchid dotted;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+/*para todo * com um atributo*/
+* [src$=".jpg"]{
+    width: 100px;
+    height:100px;
+}
+
+* [src$=".gif"]{
+    width: 300px;
+    height:300px;
+}
+
+* [src*="borboleta"]{
+    width: 200px;
+    height:200px;
+}
+
+/*
+Parágrafo e figure na mesma linha precisa configurar a largura e altura do p e colocar o display: inline-block 
+no figure colocar display:inline-block
+*/
+
+p.conf{
+    width: 300px;
+    height: 200px;
+    display:inline-block;
+}
+
+*[href^="http"]{
+    /*removi o sublinhado dos links que começãm com http*/
+    text-decoration:none;
+    color:brown;
+}
+
+#cabecalho{
+    padding:2%;
+    margin:1%;
+    background-color:lightpink;
+}
+#navegacao{
+    color:coral;
+    padding:2%;
+    margin:1%;
+    border:2px;
+    border-style:solid;
+    border-color:darkmagenta;
+
+}
+nav a{
+    text-decoration: none;
+    color:coral;
+    padding:2%;
+}
+
+/*pseudo-classe*/
+nav a:hover{
+    /*link dentro da nav, quando passar o mouse sobre ele*/
+    text-decoration:underline;
+    padding: 2%;
+    background-color:darkgray;
+
+}
+
+#rodape{
+    padding:2%;
+    margin:1%;
+    background-color:lightpink;
+}
+
+*[href^="http"]:hover{
+    text-decoration:underline;
+}
+
+figure:active{
+    color:crimson;
+}
+
+nav a:visited{
+    color:chartreuse;
+}
+
+nav a:focus{
+    background-color:darkgray;
+    padding:2%;
+    color:crimson;
+}

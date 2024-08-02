@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "conteudo">
+        <header></header>
+        <nav>
+            <a href = "index.html">Home</a> | 
+            <a href = "pagina2.html">Form2</a>
+            <br/><br/>
+        </nav>
+        <section>
+            <form action = "" method = "get">
+
+                <fieldset>
+                    <legend>Dados Pessoais: </legend>
+                    <br/><br/>
+                    <label for = "nome">Nome: </label><input type="text" name="nome" id="nome"  maxlength = "100" size = "50" required autofocus = "autofocus">
+                    <br/><br/>
+                    <label for = "idade">Idade: </label><input type="tel" name="idade" id="idade"  maxlength = "3" size = "3" required>
+                    <br/><br/>
+                    <label for = "cpf">CPF: </label><input type="text" name="cpf" id="cpf" maxlength = "12" size = "12" readonly >
+                    <br/><br/>
+                </fieldset>
+                <br/><br/>
+
+                <fieldset>
+                    <legend>Endereço:</legend>
+                    <br/><br/>
+                    <label for = "cep">CEP: </label><input type="text" name="cep" id="cep" placeholder = "xxxxx-xxx">
+                    <br/><br/>
+                    <label for = "log">Logadouro: </label><input type="text" name="log" id="log">
+                    <br/><br/>
+                    <label for = "bairro">Bairro: </label><input type="text" name="bairro" id="bairro">
+                    <br/><br/>
+                    <label for = "city">Cidade: </label><input type="text" name="cidade:" id="city">
+                    <br/><br/>
+                    <label for = "uf">UF: </label><input type="text" name="uf" id="uf">
+                    <br/><br/>
+                </fieldset>
+                <br/><br/>
+
+                <fieldset>
+                    <legend>Lista </legend>
+                    <label for = "preferida">Fruta Preferida: </label><input list = "fruta" name = "preferida" id = "preferida">
+                    <datalist id = "fruta">
+                        <option value = "Banana">Banana</option>
+                        <option value = "Maça">Maça</option>
+                        <option value = "Morango">Morango</option>
+                        <option value = "Melão">Melão</option>
+                        <option value = "Pera">Pera</option>
+                    </datalist>
+
+                    <br/><br/>
+                    <label for = "">Comida preferida: </label>
+                    <select id = "comida">
+                        <option value=""></option>
+                        <option value ="Sushi">Sushi</option>
+                        <option value = "Macarrão">Macarrão</option>
+                        <option value = "Cochinha">Cochinha</option>
+                        <option value = "Pastel">Pastel</option>
+                        <option value = "Churrasco">Churrasco</option>
+                    </select>
+
+                    <br/><br/>
+                    <label for = "bebida">Bebida: </label>
+                    <select>
+                        <option value=""></option>
+                        <optgroup label = "Refrigerante">
+                            <option value="CocaCola">CocaCola</option>
+                            <option value="Guaraná">Guaraná</option>
+                            <option value="FtUva">Fanta Uva</option>
+                        </optgroup>
+
+                        <optgroup label = "Suco">
+                            <option value="Maça">Maçã</option>
+                            <option value="Maracujá">Maracujá</option>
+                            <option value="Laranja">Laranja</option>
+                        </optgroup>
+
+                    </select>
+                </fieldset>
+
+                <br/><br/>
+                <label>Escreva sua opnião: </label><br/><textarea name = "opniao" id = "opniao" cols="100" rows="10"></textarea>
+                <br/><br/>
+
+                <input type = "button" value = "Salvar">
+
+                &nbsp;&nbsp;
+
+                <button type = "button">
+                     <img src="https://lh6.googleusercontent.com/proxy/V5Re45le1aSXn8ijPn1X-DXWPIub2VSAHsklijg37-ibX39xs_YwuVNz7uCQqNJGal8APyB5S83L_4c29eQC6f-3lBrJsly5RlTfyGq2x5Vexy01Ahhza5NJKL45uN462szogtbSK5FBn85zFfN-LqI6FaEV" 
+                        width="75" 
+                        height="100"
+                        alt = "Ursinhos carinhosos salvar"
+                        title = "Ursinhos carinhosos salvar">
+                        salvar
+                </button>
+
+                &nbsp;&nbsp;
+                <input type = "submit" value = Submeter>
+                
+            </form>
+        </section>
+        <footer></footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+
+div.relativa{
+    width: 500px;
+    height: 500px;
+    background-color:slategrey;
+    color:azure;
+    text-align: center;
+    text-decoration:overline;
+    font-size:larger;
+    font-style:oblique;
+    font-family:monospace;
+    position:relative;
+    top:30px;
+    left:650px;
+    margin:3px;
+
+
+}
+
+div.absoluta{
+    width: 450px;
+    height: 600px;
+    background-color:moccasin;
+    color:brown;
+    text-decoration:none;
+    font-size:small;
+    font-style:italic;
+    font-family:times;
+    position:absolute;
+    top:0px; 
+    left:0px;
+}
+
+div.fixa{
+    width: 600px;
+    height: 450px;
+    background-color:crimson;
+    color:antiquewhite;
+    text-decoration:wavy;
+    font-size:medium;
+    font-style:oblique;
+    font-family:'Lucida Sans';
+    position:fixed;
+    top:500px;
+    left:200px;
+
+}

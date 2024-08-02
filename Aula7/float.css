@@ -1,0 +1,30 @@
+div{
+    width: 900px;
+    display: inline;
+}
+
+#um{
+    float:left;
+    background-color:indigo;
+    color:aliceblue;
+    padding-bottom: 10px;
+}
+
+
+#dois{
+    float:left;
+    background-color:orange;
+    color:black;
+}
+
+#tres{
+    float:left;
+    background-color:darkkhaki;
+    color: cornflowerblue;
+}
+
+#quatro{
+    float:left;
+    background-color: darksalmon;
+    color:black;
+}
