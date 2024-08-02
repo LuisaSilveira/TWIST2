@@ -1,0 +1,101 @@
+
+
+h1{
+    font-family:Geneva;
+    font-size:x-large;
+    
+}
+
+h2{
+    font-family:Geneva;
+    font-size:large;
+    margin-left: 2%;
+}
+
+
+figure.borda{
+    border:3%;
+    border-style:solid;
+    border-color:cadetblue;
+    margin-left:2%;
+    padding:2%;
+    display:inline-block;
+}
+
+p.conf{
+    border: 3%;
+    border-style:solid;
+    border-color:cadetblue;
+    padding:2%;
+    display:inline-block;
+    width:42%; 
+    height: 30%;
+    margin-right:2%;
+    margin-left: 0%;
+    font-style: italic;
+}
+
+iframe{
+    display:inline-block;
+    width:48%; 
+    height:325px;
+    margin-top: 1.3%; /* Ajuste fino para alinhar o topo do vídeo */
+    margin-left: 2%; /* Margem esquerda para alinhar com o parágrafo */
+    vertical-align:top;
+}
+
+* [href$="Ed_Sheeran"]{
+    margin-left: 4%;
+}
+body{
+    background-color: rgb(51, 75, 99);
+}
+
+#conteudo{
+    background-color: rgb(209, 227, 245);
+    padding-left: 10%;
+    padding-right:10%;
+    padding-top: 2%;
+    margin-top:0%;
+    margin-bottom:0%;
+    margin-left:5%;
+    margin-right:5%;
+
+}
+
+nav a{
+    text-decoration: none;
+    padding:1%;
+    font-size:larger;
+    margin-left:1%;
+    background-color: rgba(95,158, 160, 40%);
+    border-radius: 10%;
+}
+
+nav a:hover{
+    /*link dentro da nav, quando passar o mouse sobre ele*/
+    text-decoration:underline;
+    padding: 1%;
+    background-color: rgba(95,158, 160, 100%);
+    font-size:larger;
+    border-radius: 10%;
+    margin-left:1%;
+
+}
+
+figure:active{
+    color:cadetblue;
+}
+
+p.col{
+    columns: 3;
+    column-gap:5%;
+    column-rule: 2px red inset;
+    text-align: justify;
+}
+
+
+
+a{
+    color:darkslateblue;
+}
