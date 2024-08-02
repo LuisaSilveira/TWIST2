@@ -36,12 +36,23 @@ function mostrarDados(){
     texto+="\n";
     texto += document.querySelector("#txtCpf").value;
     texto+="\n";
-    //texto+= document.getElementsByName("hobbies").checked;
-    //let livro = document.querySelector('#livros');
-    //if(livro.checked){
-    //    texto+=document.querySelector('#livros').value;
-    //   livro+='style = color: #f00';
-    //}
+    let livro = document.querySelector('#livros');
+    if(livro.checked){
+        texto+=document.querySelector('#livros').value;
+        texto+="\n******************\n";
+    }
     
+    //continuação na quinta 01/08
+    //pegar todos os checkbox
+
+    let hobbies =document.getElementsByName('hobbies');
+    alert(hobbies);
+    for(h of hobbies){
+        if(h.checked){
+            texto+= h.value;
+            texto+="\n";
+        }
+        //console.log(h.value);
+    }
     alert(texto);
 }

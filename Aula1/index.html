@@ -1,0 +1,77 @@
+<!-- html:5 -->
+
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- atributo lingua. Todo atributo tem que ter um valor atribuido ex: "pt-br". Os valores do atributo tem que estar com aspas  -->
+
+<head> <!-- tudo que não pode ser visto. Ex: titulo da pagina -->
+
+    <meta charset="UTF-8">  <!-- colocar caracteres especiais, como ç. preferido em html 5-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Aula1</title>
+    <link rel="shortcut icon" href="img/dog.jpg" type="image/x-icon">   <!-- imagem no nome da página -> link:favicon -->
+</head>
+
+<body>  <!-- os textos expostos na página -->
+    <div id = "conteudo">
+        <header> cabeçalho</header>
+        <nav>
+            <a href="index.html"> Home </a> |
+            <a href="pagina2.html"> Pagina 2</a>
+        </nav>
+        <section>
+            texto que não é elemento AAA  <!-- esse texto não é elemento -->
+    
+            <p>Meu primeiro elemento <mark>HTML</mark> é um parágrafo. <!-- mark feito como inline-->
+        
+            </p><strong>Meu texto em negrito</strong>
+        
+                <table border = "1"> <!-- tabela-->
+                    <thead>
+                        <tr>
+                            <th>Nome: </th>
+                            <th>Idade: </th>
+                            <th>Altura: </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    
+                        <tr><!-- linha-->
+                            <td> Luisa </td>
+                            <td> 20 </td>
+                            <td> 1.61 </td>
+        
+                        </tr>
+                        <tr>
+                            <td> Maria</td>
+                            <td> 19</td>
+                            <td> 1.70</td>
+                        </tr>
+                
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Criado por luisa</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                
+                <figure>
+                    <img src = "img/dog.jpg"
+                        alt = "Imagem de filhote de cachorro da raça Golden Retriever fofo"
+                        title ="Cachorrinho fofo"
+                        heignt = "200"
+                        width="200" />
+
+                        
+        
+                    <figcaption>Cachorrinho fofo Golden Retriever. Fonte:<a href="https://br.pinterest.com/pin/323766660720368696/" target="_blank">Pinterest</a></figcaption>
+                </figure>
+        </section>
+        <footer> Desenvolvido por: Luísa Silveira <br/>
+                 Projeto TWIST - 2024
+        </footer>
+
+    </div>
+
+</body>
+</html>

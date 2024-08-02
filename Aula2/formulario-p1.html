@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+<body>
+    <div id = "conteudo">
+        <head>Aula 2: Introdução ao formulário</head>
+        <nav>
+            <a href = "index.html"> Home </a> |
+            <a href = "video.html"> Video</a>
+            <a href = "formulario-p1.html"> Formulario</a>
+        </nav>
+        <section>
+            <br/>
+            <form action = "" method = "post" name = "aula2">
+                Nome: <input type = "text"
+                                id = "nome"
+                                nome = "txtNome"/><br/>
+
+                idade: <input type = "text"
+                                id = "idade"
+                                nome = "texIdade"/><br/>
+
+                senha: <input type = "password"
+                                id = "senha"
+                                nome = "senha"/><br/>
+
+                url: <input type = "url"
+                            id = "url"
+                            nome = "url"/><br/>
+
+                <!-- O campo oculto não aparece na tela (hiden)-->
+                <input type = "hidden" name = "oculto"
+                        value = "100" 
+                        id = "oculto"/>
+                <br/>
+
+                <input type = "checkbox" name  = "hobbies" 
+                        value = "serie"/> Série |
+                <input type = "checkbox" name = "hobbies"
+                        value = "livros"/> Livros |
+                <input type = "checkbox" name = "hobbies"
+                        value = "praia"/> Praia 
+
+                <br/><br/>
+                <input type = "radio" name = "twist"
+                        value = "S"/> Sim |
+                <input type = "radio" name = "twist"
+                        value = "N"/> Não  
+                <br/><br/>
+                <input type = "button" value = "Mensagem"
+                    onclick = "alert('Olá! Tudo bem?')"/>
+                <br/><br/>
+                <input type = "submit" value = "Salvar"/>
+            </form>
+        </section>
+
+    </div>
+</body>
+</html>
